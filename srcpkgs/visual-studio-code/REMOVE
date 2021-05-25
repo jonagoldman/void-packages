@@ -1,0 +1,12 @@
+if [ "$UPDATE" = "no" ]; then
+    case "$ACTION" in
+        post)
+            if [ -d usr/lib/code ]; then
+                rm -rf usr/lib/code
+            fi
+            if [ -d usr/share/code ]; then
+                rm -rf usr/share/code
+            fi
+        ;;
+    esac
+fi
