@@ -1,6 +1,6 @@
 # Template file for 'visual-studio-code'
 pkgname=visual-studio-code
-version=1.57.0
+version=1.57.1
 revision=1
 depends=""
 wrksrc="VSCode-linux-x64"
@@ -8,8 +8,8 @@ short_desc="Visual Studio Code"
 maintainer="jonagoldman <jonagoldman@gmail.com>"
 license="MIT"
 homepage="https://code.visualstudio.com"
-distfiles="https://az764295.vo.msecnd.net/stable/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c/code-stable-x64-1623259999.tar.gz"
-checksum=417f5df3a6d510bfb2047182601c07dab7731ff2c2c7fc50b760662e272949ae
+distfiles="https://az764295.vo.msecnd.net/stable/507ce72a4466fbb27b715c3722558bb15afa9f48/code-stable-x64-1623937300.tar.gz"
+checksum=a16f3dd0294b060a314ab6704cb9be7f018cc0d07f2f6771fed4e3732bb87432
 nopie=1
 
 do_install() {
