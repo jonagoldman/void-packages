@@ -2,7 +2,7 @@
 pkgname=visual-studio-code
 version=1.58.0
 revision=1
-depends=""
+depends="libXtst libxkbfile gnupg2 libsecret nss libgcc libnotify glibc glib lsof shared-mime-info xdg-utils dejavu-fonts-ttf ripgrep"
 wrksrc="VSCode-linux-x64"
 short_desc="Visual Studio Code"
 maintainer="jonagoldman <jonagoldman@gmail.com>"
